@@ -3,21 +3,22 @@
 # this is a front end for wakeonlan
 # it simply wakes up all PCs in the mac-list.conf file one by one.
 
-mac_file="./mac-list.conf"
+mac_file="mac-list.conf"
 # should we ping the PC to see if its awake? can also set per PC in conf by setting IP to None
 do_ping=true
 
 # how many pings to send before we give up( each ping waits 1 second )
-timeout=1
+timeout=10
 
 # seconds to wait before closing the window
 #   helpful when running from desktop shortcut so you can see the output
 delay_before_close=3
 
+
 wakepc()
 {
     found=true
-    #wakeonlan $2
+    wakeonlan $2
     tput setaf 4
     printf "%s" "Waking DredX-PC..."
     if [ "$do_ping" = true  ] && ! [ $3 = "None" ]; then
