@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment=
+Exec=~/wakeonlan/wakePCs.sh
+GenericName[en_CA]=
+GenericName=
+Icon=gwakeonlan
+MimeType=
+Name[en_CA]=Wake PC
+Name=Wake PC
+Path=
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

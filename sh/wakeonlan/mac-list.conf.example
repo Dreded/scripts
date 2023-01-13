@@ -1,0 +1,12 @@
+# PC name is for visual purposes only, so name it whatever. Doesnt need to be the name of the PC.
+# This script requires either static IPs or a hostname as it will ping until it gets a response
+# White space between each item(one or more spaces)
+
+# PCName    MAC-Address         host-name/IP
+
+DredX-PC    FF:B0:FF:FF:CF:FF   192.168.1.1
+
+Bob-PC      FF:B0:FF:FF:CF:FF   None
+Pats        FF:B0:FF:FF:CF:FF   192.168.1.1
+
+#last line of file must be blank
